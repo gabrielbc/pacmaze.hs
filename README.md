@@ -8,7 +8,7 @@ A entrada é um mundo bidimensional, sendo os caracteres # - P as paredes, camin
 
 ## Algoritmos
 
-Os algoritmos para escolha são: Busca em Largura, Busca em Profundidade e A* utilizando Distância de Manhattan, utilizando uma estrutura de Heap para a implementação da fronteira de estados a serem expandidos.
+Os algoritmos para escolha são: Busca em Largura, Busca em Profundidade e A* com Distância de Manhattan, utilizando uma estrutura de Heap para a implementação da fronteira de estados a serem expandidos.
 
 ## Utilização
 
@@ -25,9 +25,9 @@ runghc pacmaze.hs {algoritmo} {arquivo} {x} {y}
 ```
 
 Os parâmetros para execução são os seguintes:
-1. algoritmo: 'astar', 'bfs', ou 'dfs'
-2. arquivo: nome do arquivo, ex: pacmaze-01-tiny.txt
-3. x e y: posição inicial do Pac.
+* algoritmo: 'astar', 'bfs', ou 'dfs'
+* arquivo: nome do arquivo, ex: pacmaze-01-tiny.txt
+* x e y: posição inicial do Pac.
 
 Ex:
 
